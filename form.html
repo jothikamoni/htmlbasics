@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marriage Form</title>
+    <h3>Marriage Form</h3>
+    <form>
+        </br></br>
+        <label for="name">Enter Name</label>
+        <input type="text" 
+        id="name" 
+        name="name"
+        placeholder="Enter name"
+        minlength="3"
+        maxlength="20"
+        required/>
+
+        </br></br>
+        <label for="contact" >Enter contact Details </label>
+        <input type="tel" 
+        id="contact" 
+        name="contact"
+        placeholder="enter contact"
+        maxlength="10"
+        minlength="10"
+        required/>
+
+        </br></br>
+        <label for="dob">enter dob</label>
+        <input type="date"
+        name="age"
+        id="dob"
+        placeholder="DD-MM-YYYY"
+        min="2000-01-01"
+        max="2005-12-31"
+        required/>
+
+        </br></br>
+        <label for="age">Enter Age</label>
+        <input type="number"
+        name="age"
+        id="age"
+        placeholder="enter age"
+        min="18"
+        max="26"
+        required/>
+
+        </br></br>
+        <label for="job">Select Profession</label>
+        <select name="job" id="job">
+            <option value="Engineer">Engineer</option>
+            <option value="Doctor">Doctor</option>
+            <option value="">sundari</option>
+        </select>
+
+        <br></br>
+        <label for="gender">select gender</label>
+        <input type="radio" name="gender" id="male" value="male"/>
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="female" value="female"/>
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="others" value="others"/>
+        <label for="others">others</label>
+
+        </br></br>
+        <label for="city">Enter city</label>
+        <input type="text" id="city" name="city"
+        placeholder="Enter city name"
+        min="10"
+        max="20"
+        required/>
+
+        </br></br>
+        <label for="photo">Upload photo</label>
+        <input type="file" name="photo" id="photo" accept=".jpg" required/>
+
+        <br></br>
+        <label for="skills">Select skills</label>
+        <input type="checkbox" name="skills" id="cooking" value="cooking"/>
+        <label for="cooking">cooking</label>
+        <input type="checkbox" name="skills" id="Dancing" value="dancing"/>
+        <label for="dancing">Dancing</label>
+        <input type="checkbox" name="skills" id="singing" value="singing"/>
+        <label for="singing">singing</label>
+
+        </br></br>
+        <label for="datetime">enter date</label>
+        <input type="datetime" id="datetime" value="datetime"/>
+        <br><br>
+
+        <input type="submit" value="register for marriage"/>
+        <input type="reset" value="reset form"/>
+    </form>
+</head>
+<body>
+    
+</body>
+</html>
